@@ -1,16 +1,14 @@
 import firebase from "firebase";
 require("@firebase/firestore");
 
-var firebaseConfig = {
-  apiKey: "AIzaSyCZrG0BF6LrnRpWZjsPQxNGyMCLByo8HrM",
-  authDomain: "e-ride-549e4.firebaseapp.com",
-  projectId: "e-ride-549e4",
-  storageBucket: "e-ride-549e4.appspot.com",
-  messagingSenderId: "588298110700",
-  appId: "1:588298110700:web:34e3df331c6b1fc95047c9",
-  measurementId: "G-G3K7BWL5LH"
+const firebaseConfig = {
+  apiKey: "AIzaSyCv7OlgmkSTvjSt2rELoVpDy3csDb0F6eE",
+  authDomain: "eride-345dd.firebaseapp.com",
+  projectId: "eride-345dd",
+  storageBucket: "eride-345dd.appspot.com",
+  messagingSenderId: "673161184699",
+  appId: "1:673161184699:web:b5178b86933d6187fa709e"
 };
-
 firebase.initializeApp(firebaseConfig);
 
 export default firebase.firestore();
